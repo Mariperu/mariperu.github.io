@@ -399,6 +399,27 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+/*My changes/*/
+.new-header-link{
+  color: #fff;
+}
+.new-header-link:hover {
+  color: #fff;
+}
+.new-link-icon{
+  border-radius: 50%;
+  border: 1px solid #21a89a !important;
+}
+.new-icon{
+  color: #21a89a;
+}
+.new-link-icon:hover, .new-icon:hover {
+  border-radius: 50%;
+  border: 1px solid transparent !important;
+  color: #fff;
+}
+/********/
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -2772,8 +2793,10 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #21a89a;
+  /*#695aa6;*/
+  border-color: #21a89a;
+  /* #695aa6; */
 }
 
 .btn-primary:hover {
@@ -3043,8 +3066,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #695aa6;
-  border-color: #695aa6;
+  /* color: #695aa6;
+  border-color: #695aa6; */
+  color: #21a89a;
+    border-color: #21a89a;
 }
 
 .btn-outline-primary:hover {
@@ -12066,6 +12091,7 @@ pre .code {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 
 .header .overlay {
   position: absolute;
